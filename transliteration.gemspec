@@ -7,10 +7,15 @@ Gem::Specification.new do |gem|
   gem.license       = "MIT"
   gem.name          = "transliteration"
   gem.require_paths = ["lib"]
-  gem.version       = "1.0.3"
+  gem.version       = "1.1.0"
   gem.files = [
     'README.md',
+    'LICENSE',
+    'Gemfile',
+    'Gemfile.lock'
     'transliteration.gemspec',
-    'lib/transliteration.rb'
+    'lib/transliteration.rb',
+    'lib/hash_symbols.json'
   ]
+  gem.add_development_dependency 'json', '~> 1.8'
 end

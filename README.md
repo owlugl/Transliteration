@@ -9,4 +9,5 @@ Usage
 --------
 
 ```ruby
-puts Translit.new.translit("Тестовый текст.")
+puts Translit.new.ru_to_en("Тест-текст.")
+ => Test-text.
