@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.license       = "MIT"
   gem.name          = "transliteration"
   gem.require_paths = ["lib"]
-  gem.version       = "1.0.3"
+  gem.version       = "1.0.2"
   gem.files = [
     'README.md',
     'transliteration.gemspec',

@@ -14,11 +14,10 @@ class Translit
   end
 
   def translit(str)
-    str = str.split(//)
-    translit_str = []
-    str.each {|symb| translit_str << @hash[symb]}
+    translit_symbols = []
     out_str = ''
-    translit_str.each {|symb| out_str += symb}
+    str.split(//).each {|symb| translit_symbols << @hash[symb]}
+    translit_symbols.each {|symb| out_str += symb}
     out_str
   end
 end
