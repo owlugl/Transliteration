@@ -4,8 +4,13 @@ Gem::Specification.new do |gem|
   gem.summary       = "Simple gem for transliteration RU symbols to EN."
   gem.description   = "Simple gem for transliteration RU symbols to EN."
   gem.homepage      = ""
-  gem.license       = "LGPL-3.0"
+  gem.license       = "MIT"
   gem.name          = "transliteration"
   gem.require_paths = ["lib"]
-  gem.version       = "1.0.0"
+  gem.version       = "1.0.2"
+  gem.files = [
+    'README.md',
+    'transliteration.gemspec',
+    'lib/transliteration.rb'
+  ]
 end
